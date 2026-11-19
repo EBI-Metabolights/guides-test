@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
       
       
 
@@ -246,32 +246,13 @@
   
   
   
-  
-    <li class="md-tabs__item">
-      <a href="../MetabolomicsHub/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  MetabolomicsHub
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
     
   
   
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../Sample/" class="md-tabs__link">
+        <a href="../Overview/" class="md-tabs__link">
           
   
   
@@ -672,39 +653,14 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../MetabolomicsHub/" class="md-nav__link">
+  
+    
+    
+      
         
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    MetabolomicsHub
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
       
         
       
@@ -732,10 +688,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -753,8 +709,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -763,6 +719,34 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1002,10 +986,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
         
           
-          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="">
             
   
   
@@ -1023,8 +1007,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1211,7 +1195,11 @@
 
 <div><h1 id="metabolite-annotation-file-maf">Metabolite Annotation File (MAF)<a class="headerlink" href="#metabolite-annotation-file-maf" title="Permanent link">¶</a></h1>
 <h2 id="maf">MAF<a class="headerlink" href="#maf" title="Permanent link">¶</a></h2>
-<p>When you create an assay a corresponding metabolite annotation file will add to your study. Metabolite information should include all <strong>metabolites / unknowns / features</strong> identified within the study. You should complete the table with as much information as possible. Sample names should be automatically included in the columns to the right of the table (please contact us if not or download &amp; edit in e.g., Excel), in each column sample values per metabolite should be included.</p>
+<p>When you create an assay a corresponding metabolite annotation file will be added to your study. </p>
+<p>Metabolite information should include all <strong>metabolites / unknowns / features</strong> identified within the study, <strong>m/z values</strong> and RT values (whenever the tecnique permits it). </p>
+<p>Complete the table with as much information as possible, including a ChEBI ID for each metabolite in the ‘database_identifier’ column, if possible. Enter quantitative values for each metabolite in the sample columns on the right-hand side of the sheet, linking each metabolite to the samples in which it was detected. Sample names should appear automatically as column headings. If they do not, download the sheet and add them using a spreadsheet application such as Excel.</p>
+<p>As with other metadata files, the MAF file can be downloaded from the Metabolites tab (Download button) or from the METADATA FILES list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronise Metadata &amp; Results Files" blue tab in the Metadata &amp; Result Files box, under the Files tab. Always remember to refresh the browser window to see the updated files list. </p>
+<p>If extra columns are required to add more information, add them only after the 'smallmolecule_abundance_std_error_sub column' to avoid validation errors. <strong>Do not otherwise modify the structure of the MAF file</strong>.</p>
 <p>The Metabolite Annotation File (m_MTBLSxxx.tsv) should be referenced in the metabolite assignment file column of each assay. If results are cumulative of multiple assays, enter the same file for each.</p>
 <h3 id="validation-rules">Validation Rules<a class="headerlink" href="#validation-rules" title="Permanent link">¶</a></h3>
 <ul>
@@ -1606,10 +1594,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.annotate", "content.code.copy", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.annotate", "content.code.copy", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>

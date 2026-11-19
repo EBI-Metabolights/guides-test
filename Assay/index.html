@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
       
       
 
@@ -246,32 +246,13 @@
   
   
   
-  
-    <li class="md-tabs__item">
-      <a href="../MetabolomicsHub/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  MetabolomicsHub
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
     
   
   
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../Sample/" class="md-tabs__link">
+        <a href="../Overview/" class="md-tabs__link">
           
   
   
@@ -672,39 +653,14 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../MetabolomicsHub/" class="md-nav__link">
+  
+    
+    
+      
         
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    MetabolomicsHub
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
       
         
       
@@ -732,10 +688,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -753,8 +709,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -763,6 +719,34 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -869,6 +853,17 @@
   
     <nav class="md-nav" aria-label="Assay Overview">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-clone-edit-or-delete-an-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add, Clone, Edit or Delete an Assay
+      
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#validation-rules" class="md-nav__link">
@@ -1013,10 +1008,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
         
           
-          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="">
             
   
   
@@ -1034,8 +1029,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1224,8 +1219,16 @@
 <h2 id="assay-overview">Assay Overview<a class="headerlink" href="#assay-overview" title="Permanent link">¶</a></h2>
 <p>The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</p>
 <p>The assay is divided into sections each starting with a Protocol Ref column, e.g., Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</p>
-<p>In Assays, similar to in Samples, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to edit this file is to download it from the ISA METADATA list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronize Metadata Files" blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. </p>
-<p>Datasets with .wiff and .wiff.scan files require the upload of both types of files. Although we generally ask submitters not to modify metadata file templates, an additional 'Raw Spectral Data File' column is required for these submissions, so that both files can be properly referenced in the corresponding ASSAY.</p>
+<p>In Assays, similar to in Samples, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to edit this file is to download it from the Assay tab or from the METADATA FILES list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the 'Synchronize Metadata Files' blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. </p>
+<p><strong>You should not have mixed polarity entries</strong> in your Assays, they should be either alternating, positive, or negative. You can easily generate additional assays to accommodate these. </p>
+<p><strong>VERY IMPORTANT</strong>, the full pathnames for your files should be referenced in the <strong>'Raw Spectral Data File'</strong> column of your ASSAY files (e.g., FILES/RAW_FILES/myfiles.raw). Similarly, if you have Derived Files, the pathnames need to be referenced in the <strong>'Derived Spectral Data File'</strong> column (e.g., FILES/DERIVED_FILES/myfiles.mzML).
+For NMR studies, the full pathnames should be referenced in the <strong>'Acquisition Parameter Data File'</strong> and <strong>'Free Induction Decay Data File'</strong> columns.</p>
+<p>Datasets with <strong>.wiff</strong> and <strong>.wiff.scan</strong> files require the upload of both types of files. Although we generally ask submitters not to modify metadata file templates, an additional <strong>'Raw Spectral Data File'</strong> column is required for these submissions, so that both files can be properly referenced in the corresponding ASSAY (e.g., FILES/RAW_FILES/myfiles.wiff and FILES/RAW_FILES/myfiles.wiff.scan).</p>
+<h3 id="add-clone-edit-or-delete-an-assay">Add, Clone, Edit or Delete an Assay<a class="headerlink" href="#add-clone-edit-or-delete-an-assay" title="Permanent link">¶</a></h3>
+<p>To create a new Assay you can do it by simply clicking in the <strong>+ Add Assay</strong> button present in the Assay section. This will guide you throught the mandatory information you need to complete. </p>
+<p>As a <strong>new feature</strong> you can now use <strong>Clone assay</strong>, to clone an Assay from a Public study or from one of your own studies. </p>
+<p>You can <strong>Edit</strong> an Assay using the online editor, including few samples using the online editor, downloading the file and editing on Excel as explained above, or by clicking on the <strong>Edit assay</strong>.</p>
+<p>To delete an Assay, simply click on the <strong>Delete assay</strong> button.</p>
 <h3 id="validation-rules">Validation Rules:<a class="headerlink" href="#validation-rules" title="Permanent link">¶</a></h3>
 <ul>
 <li>At least one Assay file should be present in the study.</li>
@@ -1812,10 +1815,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.annotate", "content.code.copy", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.annotate", "content.code.copy", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>
